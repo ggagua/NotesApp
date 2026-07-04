@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Simple Notes</string>
+    <string name="add_note">Add note</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="title_hint">Title</string>
+    <string name="content_hint">Note</string>
+    <string name="read_aloud">Read note aloud</string>
+    <string name="delete_note">Delete note</string>
+    <string name="no_notes_yet">No notes yet. Tap + to add one.</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_title">Sort by title</string>
+    <string name="about">About</string>
+    <string name="about_title">About Simple Notes</string>
+    <string name="about_message">Simple Notes is a demo Kotlin app built with MVVM architecture, a Room database, and Android Text-to-Speech.</string>
+</resources>
