@@ -6,10 +6,7 @@ import androidx.room.Insert
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
 
-/**
- * MODEL layer of MVVM.
- * Room generates the actual SQL implementation of this interface for us.
- */
+
 @Dao
 interface NoteDao {
 

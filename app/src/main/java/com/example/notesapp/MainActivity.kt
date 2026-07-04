@@ -19,11 +19,7 @@ import com.example.notesapp.ui.NoteAdapter
 import com.example.notesapp.ui.NoteViewModel
 import java.util.Locale
 
-/**
- * VIEW layer of MVVM.
- * Only responsible for showing data and forwarding user actions to the ViewModel.
- * Uses ViewBinding everywhere - findViewById is never called.
- */
+
 class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var binding: ActivityMainBinding

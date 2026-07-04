@@ -9,11 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.notesapp.data.Note
 import com.example.notesapp.databinding.ItemNoteBinding
 
-/**
- * Part of the VIEW layer.
- * Uses ListAdapter + DiffUtil so the list updates efficiently and with animations.
- * Uses ViewBinding (ItemNoteBinding) - NOT findViewById.
- */
 class NoteAdapter(
     private val onPlayClick: (Note) -> Unit,
     private val onDeleteClick: (Note) -> Unit

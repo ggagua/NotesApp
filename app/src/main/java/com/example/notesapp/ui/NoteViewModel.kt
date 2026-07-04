@@ -10,14 +10,6 @@ import com.example.notesapp.data.NoteDatabase
 import com.example.notesapp.data.NoteRepository
 import kotlinx.coroutines.launch
 
-/**
- * VIEWMODEL layer of MVVM.
- * Holds UI state (allNotes) and survives configuration changes (screen rotation).
- * The Activity never touches the database directly - only through this class.
- *
- * Because this extends AndroidViewModel(application), Android's default
- * factory knows how to create it automatically - no custom Factory class needed.
- */
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository: NoteRepository

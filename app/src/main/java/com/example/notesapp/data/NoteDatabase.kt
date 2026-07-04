@@ -5,10 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-/**
- * MODEL layer of MVVM.
- * Singleton so the whole app shares one database connection.
- */
+
 @Database(entities = [Note::class], version = 1, exportSchema = false)
 abstract class  NoteDatabase : RoomDatabase() {
 
